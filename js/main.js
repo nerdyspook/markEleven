@@ -38,7 +38,7 @@ function compareValues(sum, lucky) {
     }
     else{
         output.innerHTML="Sorry! Your birthday is not a lucky number!";
-        showImage(image2);
+        showImage(image1);
     }
 };
 
