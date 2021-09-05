@@ -1,106 +1,104 @@
-
 body {
-    width: 50vw;
-    margin: 0 auto;
-    background-color: #BFDBFE;
+  width: 50vw;
+  margin: 0 auto;
+  background-color: #bfdbfe;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .navbar {
-    background-color: #374151;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 8.5vh;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
+  background-color: #374151;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 8.5vh;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
 }
 
 a {
-    text-decoration: none;
-    color: #F3F4F6;
-    padding: 0 1rem;
+  text-decoration: none;
+  color: #f3f4f6;
+  padding: 0 1rem;
 }
 
 .navbrand {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 /* =========================== Main ======================= */
 main {
-    padding: 10vh 0;
-    text-align: center;
+  padding: 8vh 0;
+  text-align: center;
 }
 
-label{
-    display: block;
-    margin: 1rem auto;
+label {
+  display: block;
+  margin: 1rem auto;
 }
 
-button { 
-    display: block;
-    margin: 1rem auto;
+button {
+  display: block;
+  margin: 1rem auto;
 }
 
 #sad,
 #happy {
-    width: 20vw;
-    display: block;
-    margin: 0 auto;
+  width: 20vw;
+  display: block;
+  margin: 0 auto;
 }
 
 #notice {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 strong {
-    color: #B91C1C;
+  color: #b91c1c;
 }
-
 
 /* ============================ Footer ========================= */
 footer {
-    background-color: #374151;
-    height: 9.35vh;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  background-color: #374151;
+  height: 9.35vh;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .social {
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    transform: translateY(-.8rem);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-0.8rem);
 }
 
 footer p {
-    font-size: 1rem;
-    transform: translateX(1rem) translateY(-1.7rem);
+  font-size: 1rem;
+  transform: translateX(1rem) translateY(-1.7rem);
 }
 
 @media screen and (max-width: 768px) {
-    .navbar {
-        height: 10vh;
-    }
+  .navbar {
+    height: 10vh;
+  }
 
-    footer {
-        height: 10vh;
-    }
+  footer {
+    height: 10vh;
+  }
 
-    .social {
-        transform: translateX(-1rem) translateY(-1rem);
-    }
+  .social {
+    transform: translateX(-1rem) translateY(-1rem);
+  }
 
-    footer p {
-        transform: translateY(-2rem);
-    }
+  footer p {
+    transform: translateY(-2rem);
+  }
 }

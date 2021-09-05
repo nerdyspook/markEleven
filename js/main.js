@@ -35,10 +35,12 @@ function compareValues(sum, lucky) {
     if(sum%lucky === 0) {
         output.innerHTML="Hurray! You are a lucky person!";
         showImage(image2);
+        hideImage(image1);
     }
     else{
         output.innerHTML="Sorry! Your birthday is not a lucky number!";
         showImage(image1);
+        hideImage(image2);
     }
 };
 
